@@ -1,9 +1,10 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import {View, Text} from 'react-native';
+import React, {useEffect} from 'react';
 import AppNavigation from './src/navigation';
+import {apiCall} from './src/api/openAI';
 export default function App() {
-  
-  return (
-    <AppNavigation />
-  )
+  // useEffect(() => {
+  //   apiCall('create an image of dog');
+  // }, []);
+  return <AppNavigation />;
 }
