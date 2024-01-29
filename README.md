@@ -1,3 +1,3 @@
 ### `npm install` or `yarn install`
-#### `npm start` 
+#### `npx react-native run-android` 
 
